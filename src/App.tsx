@@ -3,6 +3,7 @@ import {
   Main,
   Timeline,
   Navigation,
+  Expertise,
   Contact,
   Footer,
 } from "./components";
@@ -29,6 +30,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <Expertise/>
             <Timeline/>
             <Contact/>
         </FadeIn>

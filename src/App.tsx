@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
+  Timeline,
   Navigation,
   Footer,
 } from "./components";
@@ -27,6 +28,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <Timeline/>
         </FadeIn>
         <Footer />
     </div>

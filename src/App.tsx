@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
+  Bio,
   Timeline,
   Expertise,
   Accreditations,
@@ -31,6 +32,7 @@ function App() {
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
         <FadeIn transitionDuration={700}>
             <Main/>
+            <Bio/>
             <Expertise/>
             <Timeline/>
             <Accreditations/>

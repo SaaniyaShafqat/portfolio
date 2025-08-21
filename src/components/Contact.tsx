@@ -25,26 +25,26 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+    if (name !== '' && email !== '' && message !== '') {
+      var templateParams = {
+        name: name,
+        email: email,
+        message: message
+      };
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+      console.log(templateParams);
+      emailjs.send('default_service', 'template_wzhjkrg', templateParams, 'jlaqihE3TZLniWwT0').then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        },
+      );
+      setName('');
+      setEmail('');
+      setMessage('');
+    }
   };
 
   return (

@@ -113,7 +113,10 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.jpg");
+    background-image: url("./assets/images/bg-light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   .skills-container svg {
@@ -150,6 +153,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
   @media (max-width: 768px) {
     .items-container {
       padding: 5% 5%;
+    }
+    
+    .light-mode .about-section,
+    .dark-mode .about-section {
+      background-attachment: scroll;
     }
   }
 }

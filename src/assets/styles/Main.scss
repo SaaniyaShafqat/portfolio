@@ -10,7 +10,7 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
-    background-image: url("../images/bg-dark.jpg");
+    background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -101,6 +101,12 @@
             padding-right: 5%;
             font-size: 12px;
         }
+
+        .about-section {
+            background-size: 300% auto;
+            min-height: 500px;
+            background-position: 40% top;
+        }
     }
 
     @media (max-width:768px) {
@@ -138,6 +144,9 @@
             display: block;
             padding-left: 0px;
             padding-right: 0px;
+            background-size: 200% auto;
+            background-position: center top;
+            background-attachment: scroll;
         }
 
         .about-section .content {

@@ -12,33 +12,20 @@ const labelsFirst = [ //TODO: change boilerplate labels
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Tailwind CSS",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Scrum",
+    "Kanban",
+    "TDD",
+    "XP",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Wireframing",
+    "Prototyping",
+    "Responsive Design",
 ];
 
 function Expertise() {
@@ -50,9 +37,8 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <p>Throughout my career, I have focused on building responsive and user-friendly web applications.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -61,10 +47,9 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Heading 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <h3>Agile Methodologies</h3>
+                    <p>My experience with Agile methodologies has enabled me to work effectively in dynamic environments, ensuring timely delivery of high-quality software.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -73,10 +58,9 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>Heading 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <h3>UI/UX Design</h3>
+                    <p>My passion for UI/UX design drives me to create intuitive and engaging user experiences.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}

@@ -18,6 +18,8 @@ function Main() {
           </div>
           <h1>Saaniya Shafqat</h1>
           <p>Web Developer</p>
+          <p>Hyndburn, UK</p>
+          {/* <p>Passionate about creating innovative web solutions that enhance user experience and drive business success.</p> */}
 
           <div className="mobile_social_icons">
             <a href="https://github.com/SaaniyaShafqat" target="_blank" rel="noreferrer"><GitHubIcon/></a>

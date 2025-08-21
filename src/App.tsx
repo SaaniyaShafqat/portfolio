@@ -2,9 +2,10 @@ import React, {useState, useEffect} from "react";
 import {
   Main,
   Timeline,
-  Navigation,
   Expertise,
+  Accreditations,
   Contact,
+  Navigation,
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
@@ -32,6 +33,7 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
+            <Accreditations/>
             <Contact/>
         </FadeIn>
         <Footer />

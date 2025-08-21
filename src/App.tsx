@@ -3,6 +3,7 @@ import {
   Main,
   Timeline,
   Navigation,
+  Contact,
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
@@ -29,6 +30,7 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Timeline/>
+            <Contact/>
         </FadeIn>
         <Footer />
     </div>

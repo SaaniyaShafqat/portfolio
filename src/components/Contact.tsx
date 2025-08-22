@@ -52,7 +52,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Have an idea? Let's collaborate!</p>
+          <p>Have an idea or want to say hi? Send me a message!</p>
           <Box
             ref={form}
             component="form"
@@ -76,14 +76,14 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Email / Phone"
+                label="Email"
                 placeholder="How can I reach you?"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
                 error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+                helperText={emailError ? "Please enter your email address" : ""}
               />
             </div>
             <TextField

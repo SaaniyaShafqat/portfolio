@@ -34,7 +34,7 @@ function Projects() {
             <div className="project">
                 <a href="https://www.eventinsurancedirect.co.uk/" target="_blank" rel="noreferrer"><img src={proj05} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.eventinsurancedirect.co.uk/" target="_blank" rel="noreferrer"><h2>EVENT INSURANCE DIRECT</h2></a>
-                <p>Site built and managed.</p>
+                <p>Managed content, on-page and Technical SEO. Client provided design and did not want to update.</p>
             </div>
         </div>
     </div>

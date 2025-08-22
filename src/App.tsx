@@ -6,6 +6,7 @@ import {
   Education,
   Expertise,
   Accreditations,
+  Projects,
   Contact,
   Navigation,
   Footer,
@@ -37,6 +38,7 @@ function App() {
             <Education/>
             <Expertise/>
             <Career/>
+            <Projects/>
             <Accreditations/>
             <Contact/>
         </FadeIn>

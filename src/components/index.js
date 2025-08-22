@@ -6,4 +6,5 @@ export { default as Career } from "./Career";
 export { default as Education } from "./Education";
 export { default as Contact } from "./Contact";
 export { default as Accreditations } from "./Accreditations";
+export { default as Projects } from "./Projects";
 export { default as Expertise } from "./Expertise";

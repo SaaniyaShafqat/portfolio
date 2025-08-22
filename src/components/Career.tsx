@@ -22,7 +22,7 @@ function Career() {
           >
             <h2 className="vertical-timeline-element-title">Web Manager</h2>
             <h3 className="vertical-timeline-element-subtitle">David J Miller</h3>
-            <h4 className="vertical-timeline-element-subtitle">Blackburn, UK</h4>
+            <h4 className="vertical-timeline-element-subtitle">Accrington, UK</h4>
             <p>
               •	Manage and maintain multiple company websites, ensuring optimal performance, security, and functionality.
             </p>

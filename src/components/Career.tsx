@@ -17,7 +17,7 @@ function Career() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2024 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Web Manager</h2>
@@ -45,7 +45,7 @@ function Career() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2023 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Web Developer (Freelance)</h2>
@@ -73,7 +73,7 @@ function Career() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h2 className="vertical-timeline-element-title">Scrum Master</h2>

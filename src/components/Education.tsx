@@ -17,7 +17,7 @@ function Education() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2018 - 2023"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h2 className="vertical-timeline-element-title">BSC (Hons) Computer Science</h2>
@@ -30,7 +30,7 @@ function Education() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2016 - 2018"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBuildingColumns} />}
           >
             <h2 className="vertical-timeline-element-title">A-Levels</h2>
@@ -43,7 +43,7 @@ function Education() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2011 - 2016"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faSchool} />}
           >
             <h2 className="vertical-timeline-element-title">GCSEs</h2>

@@ -56,6 +56,42 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 }
 
+.dark-drawer {
+  background-color: #0d1116;
+  
+  span, p, svg {
+    color: #f8f9fa;
+  }
+
+  .MuiDivider-root {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}
+
+.light-drawer {
+  background-color: #f8f9fa;
+  
+  span, p, svg {
+    color: #0d1116;
+  }
+
+  .MuiDivider-root {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+
+.dark-drawer-container {
+  .MuiDrawer-paper {
+    background-color: #0d1116;
+  }
+}
+
+.light-drawer-container {
+  .MuiDrawer-paper {
+    background-color: #f8f9fa;
+  }
+}
+
 .container {
   margin-top: 64px;
   width: 100%;

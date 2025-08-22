@@ -24,7 +24,7 @@ function Education() {
             <h3 className="vertical-timeline-element-subtitle">The University of Salford</h3>
             <h4 className="vertical-timeline-element-subtitle">Manchester, UK</h4>
             <p>
-              Studied modules such as Mobile App Development, Web Management 
+              Studied modules such as Mobile App Development (Swift, Kotlin), Web Management (HTML, CSS, JavaScript, PHP), Object Oriented Programming (Java, C#), Software Engineering (Agile, Scrum, Kanban), Databases (MySQL, DBMS)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

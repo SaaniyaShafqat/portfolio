@@ -20,12 +20,15 @@ const labelsSecond = [
     "Kanban",
     "TDD",
     "XP",
+    "JIRA",
+    "Pair Programming",
 ];
 
 const labelsThird = [
     "Wireframing",
     "Prototyping",
     "Responsive Design",
+    "Figma",
 ];
 
 function Expertise() {

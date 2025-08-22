@@ -13,7 +13,7 @@ function Projects() {
         <div className="projects-grid">
             <div className="project">
                 <a href="/" target="_blank" rel="noreferrer"><img src={proj01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="/" target="_blank" rel="noreferrer"><h2>NEWBY & PADLEY</h2></a>
+                <a href="/" target="_blank" rel="noreferrer"><h2>NEWBY & PADLEY (Coming Soon)</h2></a>
                 {/* <p>Managed content, on-page and Technical SEO. Client provided design and did not want to update.</p> */}
             </div>
             <div className="project">

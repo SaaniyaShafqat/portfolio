@@ -16,7 +16,7 @@ function Career() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2024 - present"
+            date="Mar 2024 - Oct 2025"
             iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -44,7 +44,7 @@ function Career() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2023 - present"
+            date="Nov 2023 - present"
             iconStyle={{ background: '#345eeb', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
